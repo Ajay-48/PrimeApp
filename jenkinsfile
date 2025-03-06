@@ -33,11 +33,6 @@ pipeline {
                 credentialsId: 'sonar'
             }
         }
-        stage('Install NPM ') {
-            steps {
-                sh 'npm install'
-            }
-        }
         stage('Trivy File Scan') {
             steps {
                 sh "trivy fs --format table -o fs.html ."
@@ -65,7 +60,7 @@ pipeline {
         stage('Remove Docker Images') {
             steps {
                 script{
-                    sh "docker image prune -f"
+                    sh "docker image prune -a -f"
                 }
             }
         }
