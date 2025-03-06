@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: primeapp-container
-        image: ajay048/primeapp:64
+        image: ajay048/primeapp:65
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
