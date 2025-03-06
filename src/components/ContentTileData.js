@@ -1,9 +1,9 @@
 const abc = [
   {
-    Title: "Avatar",
-    Year: "2009",
+    Title: "Thunder",
+    Year: "2000",
     rated: "PG-13",
-    released: "18 Dec 2009",
+    released: "19 Jun 2000",
     Runtime: "162 min",
     Genre: "Action, Adventure, Fantasy",
     Director: "James Cameron",
