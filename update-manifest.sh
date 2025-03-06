@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define variables
-DEPLOYMENT_FILE="deployment.yaml"     # Path to your deployment YAML file
+DEPLOYMENT_FILE="./k8s_files/deployment.yaml"     # Path to your deployment YAML file
 IMAGE_NAME="ajay048/primeapp"           # Your Docker image name (without the tag)
 
 # Update the image tag in the deployment file using sed
