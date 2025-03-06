@@ -98,7 +98,7 @@ pipeline {
             kubectl apply -f PrimeApp/k8s_files/deployment.yaml 
             kubectl apply -f PrimeApp/k8s_files/service.yaml
             rm -rf *
-        EOF
+        
     '''
 }
 
