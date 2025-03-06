@@ -23,7 +23,7 @@ function Footer() {
           </a>
         </li>
         <li className="footer-li">
-          © 1996-{year}, Amazon.com, Inc. or its affiliates
+          © 2000-{year}, Amazon.com, Inc. or its affiliates
         </li>
       </ul>
     </footer>
